@@ -45,7 +45,7 @@ const (
 	strimziUserResource  = "kafkausers"
 	interval             = 3 * time.Second
 	timeout              = 4 * time.Minute
-	kcatImage            = "quay.io/openshift-knative/kcat:1.7.1"
+	kcatImage            = "image-registry.openshift-image-registry.svc:5000/local-images/kcat:v1.7.1"
 )
 
 var (
